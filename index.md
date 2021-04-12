@@ -6,7 +6,7 @@ Bookmarklets!
 </p>
 
 this site is all about bookmarklets for scratch! below is some javascript you can bookmark to change/improve scratch
-
+-----
 this bookmarklet makes newlines when you press enter while you make a comment!
 
 thanks to [Raihan142857](scratch.mit.edu/users/Raihan142857) for making this code!
