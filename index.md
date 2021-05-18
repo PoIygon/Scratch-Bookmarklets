@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-<div class=header>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Scratchlogo.svg/1024px-Scratchlogo.svg.png" alt="Scratch" class="center">
-	<center><h1>Bookmarklets!</h1></center>
-<div>
-
-</body>
-</html>
-
 <p align="center">
   <img width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Scratchlogo.svg/1024px-Scratchlogo.svg.png" alt="Scratch Logo">
 </p>
@@ -41,3 +30,26 @@ document.onclick = () => {
   });
 };
 document.onclick();```
+
+CST1229 bookmarks
+---
+this is the chapter in the book all about CST's bookmarks!
+now how do i make a good transition?
+
+Let's be honest, who uses the Clean button in the Scratch forums? Nobody! This is why I've created this bookmarklet, which replaces the Clean button with a Code button.
+Just click it and now your Clean button is now a Code button that adds code tags to your text!
+I would have liked to reorder it to be next to the Quote button but that's a bit hard to do.
+
+thanks to [CST1229](scratch.mit.edu/users/CST1229) for making this code!
+```javascript
+javascript:mySettings.markupSet[21].replaceWith.delete;mySettings.markupSet[21].openWith="[code]";mySettings.markupSet[21].closeWith="[/code]";var codeButton=document.getElementsByClassName("markItUpButton15")[0].childNodes[0];codeButton.title="Code";codeButton.innerHTML="Code";console.log("Loaded Clean -> Code bookmarklet")
+```
+now the thing you have been waiting for. The original post button!
+when you quote a post, it will automatically add a link to the original post.
+
+thanks to [CST1229](scratch.mit.edu/users/CST1229) for making this code!
+```javascript
+javascript:mySettings.markupSet[21].replaceWith.delete;mySettings.markupSet[21].openWith="[code]";mySettings.markupSet[21].closeWith="[/code]";var codeButton=document.getElementsByClassName("markItUpButton15")[0].childNodes[0];codeButton.title="Code";codeButton.innerHTML="Code";console.log("Loaded Clean -> Code bookmarklet")
+```
+
+cst is probably doing more bookmarks so imma put more of them here!
