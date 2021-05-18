@@ -29,10 +29,10 @@ document.onclick = () => {
     });
   });
 };
-document.onclick();```
-
+document.onclick();
+```
 CST1229 bookmarks
----
+----
 this is the chapter in the book all about CST's bookmarks!
 now how do i make a good transition?
 
@@ -49,7 +49,8 @@ when you quote a post, it will automatically add a link to the original post.
 
 thanks to [CST1229](scratch.mit.edu/users/CST1229) for making this code!
 ```javascript
-javascript:mySettings.markupSet[21].replaceWith.delete;mySettings.markupSet[21].openWith="[code]";mySettings.markupSet[21].closeWith="[/code]";var codeButton=document.getElementsByClassName("markItUpButton15")[0].childNodes[0];codeButton.title="Code";codeButton.innerHTML="Code";console.log("Loaded Clean -> Code bookmarklet")
+javascript:function copy_paste(id){var post=$('#'+id);var username=post.find(".username").text();$.ajax('/discuss/post/'+id.substr(1)+'/source/').done(function(data){paste('[quote='+username+']'+data+'\n[url=scratch.mit.edu/discuss/post/'+id.substring(1)+'][small][i][color=#888888][[]Original post][/color][/i][/small][/url]'+'[/quote]\n');});}console.log("Loaded [Original post] bookmarklet");
+
 ```
 
 cst is probably doing more bookmarks so imma put more of them here!
