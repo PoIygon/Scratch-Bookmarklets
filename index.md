@@ -32,7 +32,7 @@ document.onclick = () => {
 document.onclick();
 ```
 CST1229 bookmarks
-----
+-----
 this is the chapter in the book all about CST's bookmarks!
 now how do i make a good transition?
 
