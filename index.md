@@ -53,4 +53,11 @@ javascript:function copy_paste(id){var post=$('#'+id);var username=post.find(".u
 
 ```
 
+Another bookmarklet.
+This one just adds tools below the forum editor. Currently there's inserting color tags (not coloring text) and mentioning users. Oh and you can close it.
+
+thanks to [CST1229](scratch.mit.edu/users/CST1229) for making this code!
+```javascript
+javascript:BMTool&&(console.log("Tools already exist, removing tools"),BMTool.remove());var BMTool=document.createElement("div");function BMClr(){var o=prompt("Color");null!=o&&paste("[color="+o+"]Your colored text here...[/color]")}function BMMnt(){var o=prompt("Enter a username (with or without the @)");null!=o&&("@"==o[0]&&(o=o.substring(1)),paste("[url=scratch.mit.edu/users/"+o+"]@"+o+"[/url]"))}function BMCls(){window.confirm("Are you sure you want to close the tools? You'll have to reapply the bookmarklet to open them again.")&&BMTool.remove()}document.getElementsByClassName("markItUpFooter")[0].insertAdjacentElement("afterend",BMTool),BMTool.innerHTML="<br> <h2>Tools</h2>",BMTool.innerHTML+='<a onclick="BMClr()">[Add Color Tag] </a>',BMTool.innerHTML+='<a onclick="BMMnt()">[Mention User] </a>',BMTool.innerHTML+='<a onclick="BMCls()">[Close Tools] </a>';void 0;
+```
 cst is probably doing more bookmarks so imma put more of them here!
